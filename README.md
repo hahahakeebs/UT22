@@ -1,6 +1,9 @@
-<h1 align="left">UT22</h1>
+# UT22
 
 UT22 is a 22 key column-staggered choc unibody keyboard that is intended to be used with the Artsey or Taipo layout. It's essentially a left and right handed artsey/taipo board in a single body with extra thumbs and pinky keys. It uses a Nice!Nano and the PCB supports a Nice!View display. 
+
+## Forking Shirtballs
+this forked version adds support for choc v2, adds a jst-ach/pico ezmate footprint, and replaces the reset button and on/off switch with EVQPUC momentary buttons on top. the "power" button is really for zmk's hardware soft-off functionality and not a true shut off, but it functions the same.
 
 ***
 
