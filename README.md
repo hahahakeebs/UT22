@@ -19,6 +19,7 @@ For a complete build you'll additionally need the following components:
 - (optional) 1x Soft Off switch (EVQ-PUC02K)
 - (optional) 1x Reset switch (EVQ-PUC02K)
 
+**Note: this will require case modifications for the buttons that I (hahahakeebs) am not at liberty to share. a pcb step is provided for you to create your own case or modify your existing case files.**
 ***
 
 ## Picture
