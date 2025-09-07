@@ -3,7 +3,21 @@
 UT22 is a 22 key column-staggered choc unibody keyboard that is intended to be used with the Artsey or Taipo layout. It's essentially a left and right handed artsey/taipo board in a single body with extra thumbs and pinky keys. It uses a Nice!Nano and the PCB supports a Nice!View display. 
 
 ## Forking Shirtballs
-this forked version adds support for choc v2, adds a jst-ach/pico ezmate footprint, and replaces the reset button and on/off switch with EVQPUC momentary buttons on top. the "power" button is really for zmk's hardware soft-off functionality and not a true shut off, but it functions the same.
+this forked version adds support for choc v2, adds a jst-ach/pico ezmate footprint, and replaces the reset button and on/off switch with EVQPUC momentary buttons on top. the "power" button is really for zmk's hardware soft-off functionality and not a true shut off, but it functions the same. the BOM is, therefore, slightly altered from the original:
+
+### BOM
+
+For a complete build you'll additionally need the following components:
+- 22x SMD diodes (SOD-123)
+- 22x Kailh Choc Hotswap Sockets
+- 22x Kailh Choc V1/V2 Switches
+- 1x Nice!Nano
+- 2× Pair of female headers for the N!N
+- (optional) 1x Nice!View
+- (optional) 1x joycon battery
+- (optional) 1x Molex Pico EZMate 2-pin female socket (MPN 2121340002)
+- (optional) 1x Soft Off switch (EVQ-PUC02K)
+- (optional) 1x Reset switch (EVQ-PUC02K)
 
 ***
 
